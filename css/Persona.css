@@ -1,0 +1,79 @@
+
+/*CODIFICACION GENERAL*/
+
+*{
+    color: white;
+}
+
+body,html {
+
+    background-image:url(../img/Persona\ 4\ Wallpaper.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    font-family: 'BM SPACE', BM space A9;
+    
+
+}
+
+
+
+.divMenu {
+    background-image: url(../img/Persona\ 4\ menu\ UI.png);
+    background-size:cover;
+    background-color: rgba(0, 0, 255, 0.7);
+    width: 20%;
+    height: 100%;
+    float: left;
+    
+}
+
+.divContenido  {
+    margin-top: 6%;
+    background-color:#b7bd078c;
+    width: 77vw;
+    height: 83%;
+    float:right;
+    border-radius: 50px;
+    padding-top: 15px;
+    border-style:solid;
+    border-width: 15px;
+    border-color: #4a4d4a;
+}
+
+
+
+
+#numero1 {
+    position: relative;
+    width: 43vw;
+    height: 20vh;
+    margin: 0px 10px 0px 10px;
+    background-color: #796741;
+    border-radius: 20px;
+    transform: translate(-40px, 0px) rotate(-7deg);
+}
+
+#numero2 {
+    position: relative;
+    width: 40vw;
+    height: 20vh;
+    margin: 0px 10px 0px 10px;
+    background-color: #ffa00e;
+    border-radius: 20px;
+    transform: translate(-50px, 20px) rotate(-1deg);
+}
+
+#numero3 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 10vw;
+    width: 40vw;
+    height: 20vh;
+    background-color: #fef523;
+    border-radius: 20px;
+    transform: translate(-100px, 0px) rotate(9deg);
+}
+
+
+ 
